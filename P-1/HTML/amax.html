@@ -1,96 +1,157 @@
 <!DOCTYPE html>
 
-<html lang="fa">
-
+<html>
+    
     <head>
-
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
         <style>
 
-            body
-            {
-                background-color: #4a4a4a;
-                direction: ltr;
-            }
             table
             {
-                width: 100%;
-                height: 100%;
+                width:100%;
                 direction: ltr;
                 text-align: center;
-                padding: 10px;
+                border-radius: 10px;
+                border: solid #000000;
             }
             td
             {
-                border-radius: 10px;
-                background-color: grey;
-                padding: 2%;
-                width: 200px;
-            }
-            tr
+                padding:5px;
+            }  
+            th
             {
-                height: 120px;
+                background-color:#2196F3;
+                color:rgb(92, 74, 74);
+                border:2px solid black;
+                padding:5px;
+            }
+            .o_td
+            {
+                background-color: #009980;
+                color: #ffffff;
+            }
+            .t_td
+            {
+                background-color: rgb(235, 231, 231);
+                color: #009980;
+            }
+            .d
+            {
+                background-color: #ffffffc9;
+                color: #000000;
+            }
+            .t_red
+            {
+                color: red;
             }
 
         </style>
-        <title>امکس</title>
+
+        <title>فاکتور</title>
 
     </head>
 
     <body>
+
         <table>
-            <tr>
+
+            <thead class="o_td">
+
                 <td>
-                    <p>میانگین قدرت خریدار</p>
+                    <p>Rank</p>
                 </td>
-                <td colspan="3" rowspan="3">
-                    <img src="../image/amax.PNG" alt="amax">
-                </td>
-                <td rowspan="2">
-                    <p>در حال حاضر
-                        ساعات بررسی معاملات به پایان رسیده
-                        نسبت نمادهای مثبت به منفی فعلا عدد 0.63 می باشد که
-                        بیانگر قویتر بودن عرضه در بازار است. میانگین 10
-                        روزه عدد 1.03 می باشد که گویا امروز با توجه به عدد
-                        فعلی 0.63 و کوچکتر بودن این عدد نسبت به میانگین
-                        10 روزه بازار با افزایش عرضه ها طی روند 10 روزه خود
-                        مواجه است.
-                    </p>
-                </td>
-            </tr>
-            <tr>
+
                 <td>
-                    <p>تعداد سهام مثبت و منفی</p>
+                   <p>Name</p>
                 </td>
-            </tr>
-            <tr>
+
                 <td>
-                    <p>نسبت ارزش صفوف</p>
+                    <p>Points</p>
                 </td>
+
                 <td>
-                    <p>نماد برجسته از نظر شاخص</p>
+                    <p>Team</p>
                 </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>نسبت مثبت به منفی</p>
-                </td>
-                <td>
-                    <p>نسبت تعداد صفوف</p>
-                </td>
-                <td>
-                    <p>تعداد صفوف</p>
-                </td>
-                <td>
-                    <p>تعداد سهم یا قدرت خرید بالا</p>
-                </td>
-                <td>
-                    <p>تعداد سهم یا حجم بالا</p>
-                </td>
-            </tr>
+                
+            </thead>
+
+            <tbody class="d">
+
+                <tr>
+                    
+                    <td>
+                        <p>1</p>
+                    </td>
+
+                    <td>
+                        <p>Domenic</p>
+                    </td>
+
+                    <td>
+                        <p>88,110</p>
+                    </td>
+
+                    <td>
+                        <p>dcode</p>
+                    </td>
+
+                </tr>
+
+                <tr class="t_td">
+                    <td>
+                        <p>2</p>
+                    </td>
+
+                    <td>
+                        <p>Sally</p>
+                    </td>
+
+                    <td>
+                        <p>72,400</p>
+                    </td>
+
+                    <td>
+                        <p>Students</p>
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+                        <p>3</p>
+                    </td>
+
+                    <td>
+                        <p>Nick</p>
+                    </td>
+
+                    <td>
+                        <p>52,300</p>
+                    </td>
+
+                    <td>
+                        <p>docde</p>
+                    </td>
+
+                </tr>
+                
+                <tr>
+
+                    <td colspan="2">
+                        <p class="t_red">SUM</p>
+                    </td>
+
+                    <td colspan="2">
+                        <p>212,810</p>
+                    </td>
+
+                </tr>
+                
+            </tbody>
+        
         </table>
+
     </body>
 
 </html>
